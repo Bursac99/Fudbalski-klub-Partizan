@@ -1,0 +1,295 @@
+html, body{
+	scroll-behavior: smooth; 
+	background-color: rgba(240, 240, 240);
+}
+header{
+	background: url(img/Partizanstadion.jpg) center fixed;
+	padding: 5px 0px;
+	text-align: center;
+	color: white;
+	font-size: bold;
+	letter-spacing: 2px;
+	background-size: 100% 100%;
+	border: black solid 2px;
+}
+.p::first-letter{
+	font-size: 5em;
+	font-weight: bold;
+}
+.p1::before{
+	content: url(img/Partizangrb.png);	
+}
+.divklasa1{
+	display: block;
+	background-color:rgba(255,255,255,0.4);
+	padding: 60px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	margin: auto;
+	margin-bottom: 50px;
+	border: 2px solid black;
+	border-radius: 100px;
+	max-width: 80%
+}
+nav{
+	padding: 5px 0px;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+}
+ul{
+	text-align: center;
+}
+li{
+	display: inline;
+	padding: 5px 0px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	background-color: white;
+	border-radius: 15px;
+	border: 2px black solid;
+}
+li:hover{
+	color: rgba(255,255,255);
+	font-weight: bold;
+	background-color: black;
+	transition:0.8s ease;
+	padding: 10px 5px;
+	font-size: 30px;
+}
+@media screen and (max-width: 600px){
+	li{
+		display: block;
+		width: 40%;
+		margin: auto;
+	}
+}
+a{
+    text-decoration:none; 
+    color:black;
+}
+a:hover{
+	color: white;
+	font-weight: bold;
+}
+.divklasa2{
+	display: block;
+	background: url(img/Partizanstadion1.jpg) center fixed;
+	border: black solid 2px;
+	background-size: 100% 100%;
+}
+.naslovklasa1{
+	background-color: black;
+	color: white;
+	padding: 8px;
+}
+.naslovklasa1:hover{
+	background-color: white;
+	color: black;
+	border: 2px solid black;	
+}
+.divklasa3{
+	 background-color:rgba(255,255,255,0.4);
+	 padding: 60px;
+	 margin: 40px;
+	 margin-bottom: 40px;
+	 font-weight: bold;
+	 letter-spacing: 2px;
+	 border: 2px solid black;
+	 border-radius: 100px;
+}
+.naslovklasa2{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 5px;
+	border-radius: 100px;
+}
+.naslovklasa2:hover{
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+}
+.headerklasa1{
+	display: block;
+	background: url(img/Partizanstadion2.jpg) center fixed;
+	background-size: 100% 100%;
+	border-radius: 100px;
+}
+
+.forma{
+	text-align: center;
+}
+.legenda{
+	border:2px solid black;
+	color: black;
+	font-weight: bold;
+}
+.inputklasa1{
+	border: 3px solid black;
+}
+.inputklasa1:hover{
+	background-color: black;
+	color: white;
+}
+.tekstlozinkaimeprezime{
+	color: rgb(0,0,0);
+	font-size: 20px;
+	font-weight: bold;
+}
+.tekstlozinkaimeprezime1::after{
+	content: '*';
+	color: rgb(0,0,0);
+	font-size: 20px;
+	font-weight: bold;
+}
+.buttoni{
+	padding: 20px 30px;
+	border-radius: 20px;
+	border: black 2px solid;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+}
+.buttoni:hover{
+	padding: 30px 40px;
+	border-radius: 30px;
+	background-color: black;
+	color: white;
+}
+.slikapartizana{
+	background: url(img/Partizangrb.png);
+	background-size: 100px;
+}
+.divklasa4{
+	background: url(img/Partizanstadion5.jfif) fixed center;
+	background-size: 100% 100%;
+	display: block;
+	border: black solid 2px;
+}
+.divklasa5{
+	background: url(img/Partizanligaevrope.jpg) fixed center;
+	background-size: 100% 100%;
+	display: block;
+	border: black solid 2px;
+}
+.padajuci{
+    position: relative;
+    display: inline-block;
+}
+.padajuciElementi{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 120px;
+    white-space: pre-line;
+    text-align: left;
+}
+.padajuciElementi a:hover{
+	background-color: black;
+}
+
+.padajuci:hover .padajuciElementi{
+	display: block;
+	padding: 5px;
+	font-weight: bold;
+	border: 5px solid black;
+}
+.Istorijaklasa{
+    display: block;
+	padding: 5px 0px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	border: 1px;
+	background-color: white;
+	border-radius: 15px;
+	border: 2px black solid;
+}
+.Istorijaklasa:hover{
+	color: rgba(255,255,255);
+	font-weight: bold;
+	background-color: black;
+	transition:0.8s ease;
+	padding: 10px 5px;
+}	
+.kupslika{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	display: block;
+	
+}
+.ligaslika{
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	display: block;
+}
+@media screen and (max-width: 600px){
+	.ligaslika{
+		width: 150px;
+		height: 150px;
+		transition: 1s;
+
+	}
+	.kupslika{
+		width: 150px;
+		height: 150px;
+		transition: 1s;
+	}
+}
+.divklasa6{
+	display: block;
+	background-color:rgba(255,255,255,0.4);
+	padding: 60px;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	margin: auto;
+	border: 2px solid black;
+	border-radius: 100px;	
+}
+.divjedanzadrugim{
+	display: block;
+	margin: auto;
+}
+.pkupliga{
+	border: double 3px black;
+	display: inline-block;
+	padding: 10px;
+	font-size: 40px; 
+}
+.pkupliga:hover{
+	border: double 3px black;
+	padding: 15px;
+	color: white;
+	transition: 1s;
+}
+@media screen and (max-width: 600px){
+	.pkupliga{
+		font-size: 20px;
+	}
+	.pkupliga:hover{
+		font-weight: bold;
+	}
+}
+.navigacioninavrhu{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+.topdugme{
+	color: black;
+	border: solid white 4px;
+	background-color: white;
+	font-weight: bold;
+}
+.topdugme:hover{
+	background: black;
+	border: solid black 4px;
+	font-weight: bold;
+}
+
+
+
+
